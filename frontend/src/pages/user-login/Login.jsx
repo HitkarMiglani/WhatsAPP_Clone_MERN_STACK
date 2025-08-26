@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { authAPI } from "../../utils/api";
+import { authAPI } from "../../services/api";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -116,7 +116,7 @@ export default function Login() {
             </svg>
           </div>
           <h1 className="mb-2 text-2xl font-semibold text-gray-800">
-            WhatsApp
+            WhatsApp Clone
           </h1>
           <p className="text-sm text-gray-600">
             {getInputLabel()}

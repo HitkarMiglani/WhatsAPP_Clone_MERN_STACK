@@ -38,7 +38,6 @@ const apiCall = async (endpoint, options = {}) => {
   }
 };
 
-// Auth API functions
 export const authAPI = {
   sendOtp: (phoneNumber, phoneSuffix = "+91") =>
     apiCall("/auth/send-otp", {

@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Login from "./pages/user-login/Login";
-import ChatPage from "./pages/chat/ChatPage";
+import ChatPage from "./pages/chatSection/ChatPage";
 
 // Protected Route Component
 const ProtectedRoute = ({ children }) => {
